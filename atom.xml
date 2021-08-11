@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SFDC_Raid</title>
+  
+  <subtitle>Salesforce</subtitle>
+  <link href="http://sfdc-raid.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://sfdc-raid.github.io/"/>
+  <updated>2021-08-11T16:24:09.114Z</updated>
+  <id>http://sfdc-raid.github.io/</id>
+  
+  <author>
+    <name>Raider</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Salesforce Anything</title>
+    <link href="http://sfdc-raid.github.io/2021/08/12/Salesforce-Anything/"/>
+    <id>http://sfdc-raid.github.io/2021/08/12/Salesforce-Anything/</id>
+    <published>2021-08-11T16:13:46.000Z</published>
+    <updated>2021-08-11T16:24:09.114Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="不能忘記的-Hexo-指令"><a href="#不能忘記的-Hexo-指令" class="headerlink" title="不能忘記的 Hexo 指令"></a>不能忘記的 Hexo 指令</h1><ul><li>hexo new ‘文章名稱’</li><li>hexo generate</li><li>hexo server</li><li>hexo clean</li><li>hexo deploy</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;不能忘記的-Hexo-指令&quot;&gt;&lt;a href=&quot;#不能忘記的-Hexo-指令&quot; class=&quot;headerlink&quot; title=&quot;不能忘記的 Hexo 指令&quot;&gt;&lt;/a&gt;不能忘記的 Hexo 指令&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;hexo new ‘文章名稱’&lt;/li&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="Salesforce" scheme="http://sfdc-raid.github.io/tags/Salesforce/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Salesforce Anything</title>
+    <link href="http://sfdc-raid.github.io/2021/08/12/%E4%BD%BF%E7%94%A8Github%20Page%20+%20Hexo%E6%9E%B6%E7%AB%99%E5%AF%ABBlog%EF%BC%88%E3%84%A7%EF%BC%89%20White%20Noise&#39;s%20Blog%2093a11b0749b64cf3988f40b2a683d9e5/"/>
+    <id>http://sfdc-raid.github.io/2021/08/12/%E4%BD%BF%E7%94%A8Github%20Page%20+%20Hexo%E6%9E%B6%E7%AB%99%E5%AF%ABBlog%EF%BC%88%E3%84%A7%EF%BC%89%20White%20Noise&#39;s%20Blog%2093a11b0749b64cf3988f40b2a683d9e5/</id>
+    <published>2021-08-11T16:13:46.000Z</published>
+    <updated>2021-08-11T16:24:04.627Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="使用Github-Page-Hexo架站寫Blog（ㄧ）-White-Noise’s-Blog"><a href="#使用Github-Page-Hexo架站寫Blog（ㄧ）-White-Noise’s-Blog" class="headerlink" title="使用Github Page + Hexo架站寫Blog（ㄧ） | White Noise’s Blog"></a>使用Github Page + Hexo架站寫Blog（ㄧ） | White Noise’s Blog</h1><p>Created: July 27, 2021 12:36 PM<br>URL: <a href="https://wn86.github.io/2021/01/04/test/">https://wn86.github.io/2021/01/04/test/</a></p><h2 id="主要內容"><a href="#主要內容" class="headerlink" title="主要內容"></a>主要內容</h2><ul><li>為何寫Blog</li><li>寫作平台的選擇</li><li>Github Page + Hexo架站過程</li></ul><h2 id="為何寫Blog"><a href="#為何寫Blog" class="headerlink" title="為何寫Blog"></a>為何寫Blog</h2><ul><li>練習闡述(elaboration)。</li><li>自己寫的文章會一讀再讀，加深知識點的印象。</li><li>留言互動能再次檢視自己的理解程度。</li><li>培養觀察市場及技術趨勢的習慣。</li><li>求職時自學能力的證明。</li></ul><p>（其他好處等我發掘再補充～:D）</p><h2 id="寫作平台的選擇"><a href="#寫作平台的選擇" class="headerlink" title="寫作平台的選擇"></a>寫作平台的選擇</h2><p>稍微比較過幾個寫作平台，如：Medium, WordPress, Github Page + Hexo 等。<br>最後選擇後者，因為有免費，支援Markdown，能方便撰寫程式碼及數學公式等優點，但缺點是只能架設靜態網站。決定快點開始寫作就不猶豫啦！等我使用一段時間再來心得分享～</p><h2 id="Github-Page-Hexo架站過程"><a href="#Github-Page-Hexo架站過程" class="headerlink" title="Github Page + Hexo架站過程"></a>Github Page + Hexo架站過程</h2><h3 id="教學文參考："><a href="#教學文參考：" class="headerlink" title="教學文參考："></a>教學文參考：</h3><p><a href="https://ed521.github.io/2019/07/hexo-install/">使用 GitHub Pages + Hexo 來架設個人部落格</a></p><p><a href="https://segmentfault.com/a/1190000017986794">超详细Hexo+Github Page搭建技术博客教程</a></p><h3 id="使用的工具或服務："><a href="#使用的工具或服務：" class="headerlink" title="使用的工具或服務："></a>使用的工具或服務：</h3><ul><li><strong>Node.js</strong></li><li><strong>Git</strong>（分布式版本控制系統，用於專案版控管理）</li><li><strong>Github Page</strong>（Github提供的免費靜態網頁託管服務，能自動更新部署）</li><li><strong>Hexo</strong>（基於Node.js驅動的一款簡潔Blog框架，能產生靜態網頁）</li></ul><p>插件則使用了：</p><ul><li><p><strong>Hexo Admin</strong> （後台管理介面）</p></li><li><p><strong>Disqus</strong> （留言板）</p><ul><li><p>優點：</p><ul><li>網站管理員可導入與導出留言來備份。</li><li>留言系統以社群網路形式，可查看 Disqus 用戶在不同網站的留言，形成一個留言用戶在不同網站的互通，增加人流。</li><li>留言數據與留言框均由 Disqus 主機（服務器）提供，減少網站主 機負荷（數據寫入與讀取），避免黑帽駭客與垃圾留言機器人的攻擊， 提升速度。</li></ul></li><li><p>於每篇Post下方新增留言板：主要修改預設主題hexo-theme-landscape資料夾下的 <code>_config.yml</code>, <code>after-footer.ej</code>, <code>post.ejs</code> 檔案，但按照<a href="https://havincy.github.io/blog/post/AddDisqusInHexo/">教學</a>操作一直出現bug，後來在<code>post.ejs</code>中貼上 <a href="https://help.disqus.com/en/articles/1717112-universal-embed-code">官方提供的程式碼</a>，確認在17行 <code>s.src</code> 有改為自己的Disqus shortname，總算能順利運行。</p></li><li><p>留言板改成繁體中文介面<a href="https://www.wpchen.net/zh/posts/disqus#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A%E6%89%8B%E5%8B%95%E4%BD%BF%E7%94%A8%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%AE%89%E8%A3%9D_Disqus">教學</a>第10行加上<code>this.language = &quot;zh_TW&quot;;</code></p>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line"></span><br></pre></td></tr></table></figure>  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">// post.ejs</span><br><span class="line">&lt;%- partial(&#x27;_partial/article&#x27;, &#123;post: page, index: false&#125;) %&gt;</span><br><span class="line">    &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;</span><br><span class="line">        &lt;script&gt;</span><br><span class="line">        /**</span><br><span class="line">        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.</span><br><span class="line">        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */</span><br><span class="line"></span><br><span class="line">        var disqus_config = function () &#123;</span><br><span class="line">        this.language = &quot;zh_TW&quot;; // Disqus 顯示語言</span><br><span class="line">        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page&#x27;s canonical URL variable</span><br><span class="line">        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#x27;s unique identifier variable</span><br><span class="line">        &#125;;</span><br><span class="line"></span><br><span class="line">        (function() &#123; // DON&#x27;T EDIT BELOW THIS LINE</span><br><span class="line">        var d = document, s = d.createElement(&#x27;script&#x27;);</span><br><span class="line">        s.src = &#x27;https://whitenoise-blog.disqus.com/embed.js&#x27;;</span><br><span class="line">        s.setAttribute(&#x27;data-timestamp&#x27;, +new Date());</span><br><span class="line">        (d.head || d.body).appendChild(s);</span><br><span class="line">        &#125;)();</span><br><span class="line">        &lt;/script&gt;</span><br><span class="line">        &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</span><br><span class="line">&lt;/article&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>  以上是學習的一個紀錄，後續新增網站功能會再更新。歡迎補充和指正，感謝喔！: )</p></li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;使用Github-Page-Hexo架站寫Blog（ㄧ）-White-Noise’s-Blog&quot;&gt;&lt;a href=&quot;#使用Github-Page-Hexo架站寫Blog（ㄧ）-White-Noise’s-Blog&quot; class=&quot;headerlink&quot; title</summary>
+      
+    
+    
+    
+    
+    <category term="Salesforce" scheme="http://sfdc-raid.github.io/tags/Salesforce/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://sfdc-raid.github.io/2021/08/12/hello-world/"/>
+    <id>http://sfdc-raid.github.io/2021/08/12/hello-world/</id>
+    <published>2021-08-11T16:08:08.723Z</published>
+    <updated>2021-08-11T16:08:08.723Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
