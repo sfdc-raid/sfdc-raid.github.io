@@ -6,7 +6,7 @@
   <link href="http://sfdc-raid.github.io/atom.xml" rel="self"/>
   
   <link href="http://sfdc-raid.github.io/"/>
-  <updated>2021-08-11T16:24:04.627Z</updated>
+  <updated>2021-10-27T03:46:57.227Z</updated>
   <id>http://sfdc-raid.github.io/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你的帳號夠安全嗎？關於 MFA 應該知道的事</title>
+    <link href="http://sfdc-raid.github.io/2021/10/26/%E4%BD%A0%E7%9A%84%E5%B8%B3%E8%99%9F%E5%A4%A0%E5%AE%89%E5%85%A8%E5%97%8E%EF%BC%9F%E9%97%9C%E6%96%BC-MFA-%E6%87%89%E8%A9%B2%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B/"/>
+    <id>http://sfdc-raid.github.io/2021/10/26/%E4%BD%A0%E7%9A%84%E5%B8%B3%E8%99%9F%E5%A4%A0%E5%AE%89%E5%85%A8%E5%97%8E%EF%BC%9F%E9%97%9C%E6%96%BC-MFA-%E6%87%89%E8%A9%B2%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B/</id>
+    <published>2021-10-26T10:00:35.000Z</published>
+    <updated>2021-10-27T03:46:57.227Z</updated>
+    
+    <content type="html"><![CDATA[<!-- 圖片需使用 1280x470 --><p><img src="https://firebasestorage.googleapis.com/v0/b/sample-firebase-52899.appspot.com/o/2021-10-26.png?alt=media&token=f51e72d1-ab3b-4e52-85fc-9f81ae6d87ae" alt="header"></p><h2 id="資訊安全的現代戰爭"><a href="#資訊安全的現代戰爭" class="headerlink" title="資訊安全的現代戰爭"></a>資訊安全的現代戰爭</h2><p>傳統上，使用者系統帳號的密碼可以透過系統預設的密碼原則增加複雜度，像是密碼需要英數混合使用、至少一個符號、至少一個數字 或是 至少一個大寫或小寫英文字母。而全球性的網路攻擊也不斷在進化，損害企業或是偽裝成消費者的攻擊手法推陳出新，像是網路釣魚、中間人攻擊和憑證填充攻擊等等。因此，保護您的 Salesforce 帳號以及安全的存取系統資訊是企業資安的一項關鍵策略。</p><h2 id="什麼是多重因素驗證-Multi-Factor-Authentication-MFA"><a href="#什麼是多重因素驗證-Multi-Factor-Authentication-MFA" class="headerlink" title="什麼是多重因素驗證 (Multi-Factor Authentication, MFA)"></a>什麼是多重因素驗證 (Multi-Factor Authentication, MFA)</h2><p>MFA (Multi-Factor Authentication, MFA) 是增加我們帳號安全性的最簡單及最有效的方式之一，同時也能保護我們的資料。他能夠防止未經授權的惡意入侵者登入我們的系統，從而保護資訊不被存取。</p><p>在使用者登入系統時，MFA 將要求提供兩層或以上的驗證方式來證明使用者是誰，第一層是我們的使用者帳號及密碼。第二層則是其它驗證方法，例如 Salesforce Authenticator 行動應用程式。</p><p>透過通過帳號登入和授權應用程序 (Authenticator) 結合使用，惡意入侵者將難以進入我們的 Salesforce 平台，並存取到任何資料。即使駭客竊取您的密碼，他們仍舊無法登入，因為他們並未具備您已安裝了 Salesforce Authenticator 的行動裝置。</p><h2 id="為什麼我的帳號需要他"><a href="#為什麼我的帳號需要他" class="headerlink" title="為什麼我的帳號需要他"></a>為什麼我的帳號需要他</h2><p>為了提升企業資訊安全，Salesforce 近期宣布，將在 2022 年 2 月 1 日開始，全面啟用 MFA 以保護使用者的帳號，包含以下 Salesforce 服務：Sales Cloud、Service Cloud、B2C Commerce Cloud、Heroku、Marketing Cloud (包含 Datorama、Email/Modile Studio、Journey Builder、Pardot)、Mulesoft、Quip 及 Tableau Online。</p><h2 id="我的使用者要怎麼使用-MFA"><a href="#我的使用者要怎麼使用-MFA" class="headerlink" title="我的使用者要怎麼使用 MFA"></a>我的使用者要怎麼使用 MFA</h2><p>使用 MFA 不需要任何額外的費用，僅需要在您擁有的手機上安裝 Salesforce Authenticator 行動應用程式，並與您的 Salesforce 帳號建立連結。</p><p>在 MFA 啟用後，在您每次登入時，要求您輸入兩個以上有關您身分 (或因素) 的證據，來為 Salesforce 的安全性多加一層保護。第一個因素是我們的使用者帳號及密碼。第二個因素是您擁有的驗證方法，例如 Salesforce Authenticator 行動應用程式。</p><p>您可以透過以下的連結下載 Salesforce Authenticator 行動應用程式：</p><p><strong>iOS - App Store</strong>：<a href="https://apps.apple.com/tw/app/salesforce-authenticator/id782057975">https://apps.apple.com/tw/app/salesforce-authenticator/id782057975</a></p><p><strong>Android - Google Play</strong>：<a href="https://play.google.com/store/apps/details?id=com.salesforce.authenticator&hl=zh_TW&gl=TW">https://play.google.com/store/apps/details?id=com.salesforce.authenticator&amp;hl=zh_TW&amp;gl=TW</a></p><h2 id="我的-Salesforce-組織能不使用-MFA"><a href="#我的-Salesforce-組織能不使用-MFA" class="headerlink" title="我的 Salesforce 組織能不使用 MFA"></a>我的 Salesforce 組織能不使用 MFA</h2><p>從 2022 年 2 月 1 日開始，Salesforce 將要求客戶使用 MFA 才能登入系統，這一安全措施是防止未經授權的使用者登入及資訊存取。使用 MFA 不需要任何額外的費用。</p><h2 id="我們的建議及觀點"><a href="#我們的建議及觀點" class="headerlink" title="我們的建議及觀點"></a>我們的建議及觀點</h2><p>距離 2022 年 2 月 1 日剩下約 100 天 (此撰文日為 2021 年 10 月底) ，我們鼓勵您立即著手規劃準備啟用 MFA 的作業，以提升您的 Salesforce 帳號安全，也避免屆時無法登入系統。</p><p>若您需要啟用 MFA 的協助，或是討論您公司的組織環境，我們很樂意提供幫助，請洽合作的 PwC 顧問團隊。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;!-- 圖片需使用 1280x470 --&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://firebasestorage.googleapis.com/v0/b/sample-firebase-52899.appspot.com/o/2021-10-26.png?alt=med</summary>
+      
+    
+    
+    
+    
+    <category term="Admin" scheme="http://sfdc-raid.github.io/tags/Admin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Salesforce Anything</title>
+    <link href="http://sfdc-raid.github.io/2021/08/12/Salesforce-Anything/"/>
+    <id>http://sfdc-raid.github.io/2021/08/12/Salesforce-Anything/</id>
+    <published>2021-08-11T16:13:46.000Z</published>
+    <updated>2021-10-26T06:16:43.862Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://firebasestorage.googleapis.com/v0/b/sample-firebase-52899.appspot.com/o/IMG_5290.jpg?alt=media&token=c1d62e3d-f498-4584-9715-db704d4e0b30" alt="qq"></p><h1 id="不能忘記的-Hexo-指令"><a href="#不能忘記的-Hexo-指令" class="headerlink" title="不能忘記的 Hexo 指令"></a>不能忘記的 Hexo 指令</h1><ul><li>hexo new ‘文章名稱’</li><li>hexo generate</li><li>hexo server</li><li>hexo clean</li><li>hexo deploy</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://firebasestorage.googleapis.com/v0/b/sample-firebase-52899.appspot.com/o/IMG_5290.jpg?alt=media&amp;token=c1d62e3d-f498-4584</summary>
+      
+    
+    
+    
+    <category term="Salesforce" scheme="http://sfdc-raid.github.io/categories/Salesforce/"/>
+    
+    
+    <category term="Salesforce" scheme="http://sfdc-raid.github.io/tags/Salesforce/"/>
+    
+    <category term="Mulesoft" scheme="http://sfdc-raid.github.io/tags/Mulesoft/"/>
+    
+    <category term="Apex" scheme="http://sfdc-raid.github.io/tags/Apex/"/>
+    
+    <category term="Aura" scheme="http://sfdc-raid.github.io/tags/Aura/"/>
+    
+    <category term="LWC" scheme="http://sfdc-raid.github.io/tags/LWC/"/>
+    
+  </entry>
   
   <entry>
     <title>Salesforce Anything</title>
@@ -29,29 +85,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;使用Github-Page-Hexo架站寫Blog（ㄧ）-White-Noise’s-Blog&quot;&gt;&lt;a href=&quot;#使用Github-Page-Hexo架站寫Blog（ㄧ）-White-Noise’s-Blog&quot; class=&quot;headerlink&quot; title</summary>
-      
-    
-    
-    
-    
-    <category term="Salesforce" scheme="http://sfdc-raid.github.io/tags/Salesforce/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Salesforce Anything</title>
-    <link href="http://sfdc-raid.github.io/2021/08/12/Salesforce-Anything/"/>
-    <id>http://sfdc-raid.github.io/2021/08/12/Salesforce-Anything/</id>
-    <published>2021-08-11T16:13:46.000Z</published>
-    <updated>2021-08-11T16:24:09.114Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="不能忘記的-Hexo-指令"><a href="#不能忘記的-Hexo-指令" class="headerlink" title="不能忘記的 Hexo 指令"></a>不能忘記的 Hexo 指令</h1><ul><li>hexo new ‘文章名稱’</li><li>hexo generate</li><li>hexo server</li><li>hexo clean</li><li>hexo deploy</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;不能忘記的-Hexo-指令&quot;&gt;&lt;a href=&quot;#不能忘記的-Hexo-指令&quot; class=&quot;headerlink&quot; title=&quot;不能忘記的 Hexo 指令&quot;&gt;&lt;/a&gt;不能忘記的 Hexo 指令&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;hexo new ‘文章名稱’&lt;/li&gt;</summary>
       
     
     

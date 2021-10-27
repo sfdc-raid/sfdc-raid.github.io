@@ -1,15 +1,59 @@
+
 <!-- 試試用 SLDS 吧-->
 <html lang="zh-Hant-TW">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>關於我</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'/>
-</head>
-<body>
-  <div class="container">
-    <h1>這是標題</h1>
-    <button class="btn btn-outline-primary" type="button">這是一段話</button>
-  </div>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>關於我</title>
+		<!-- <link rel='stylesheet' href='/style/bootstrap.min.css'/> -->
+		<!-- <link rel='stylesheet' href='/style/salesforce-lightning-design-system.min.css'/> -->
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+		<style>
+			.chat-notification {
+			  display: flex;
+			  max-width: 24rem;
+			  margin: 0 auto;
+			  padding: 1.5rem;
+			  border-radius: 0.5rem;
+			  background-color: #fff;
+			  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+			}
+			.chat-notification-logo-wrapper {
+			  flex-shrink: 0;
+			}
+			.chat-notification-logo {
+			  height: 3rem;
+			  width: 3rem;
+			}
+			.chat-notification-content {
+			  margin-left: 1.5rem;
+			  padding-top: 0.25rem;
+			}
+			.chat-notification-title {
+			  color: #1a202c;
+			  font-size: 1.25rem;
+			  line-height: 1.25;
+			}
+			.chat-notification-message {
+			  color: #718096;
+			  font-size: 1rem;
+			  line-height: 1.5;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>這是標題</h1>
+			<button class="slds-button" type="button">這是一段話</button>
+			<div class="chat-notification">
+				<div class="chat-notification-logo-wrapper">
+				  <img class="chat-notification-logo" src="/images/3.png" alt="ChitChat Logo">
+				</div>
+				<div class="chat-notification-content">
+				  <h4 class="chat-notification-title">ChitChat</h4>
+				  <p class="chat-notification-message">你有一則新訊息</p>
+				</div>
+			  </div>
+		</div>
+	</body>
 </html>
